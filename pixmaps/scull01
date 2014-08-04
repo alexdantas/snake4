@@ -1,0 +1,19 @@
+/* XPM */
+static char * scull01[] = {
+"12 12 4 1",
+" 	c black",
+".	c white",
+"X	c #A289A289A289",
+"o	c #820782078207",
+"    .XXo    ",
+"  ..XXXXoo  ",
+" .  XXXX  o ",
+".X   XX   Xo",
+".X  XX X  Xo",
+".X  X  X  Xo",
+" XXXX  XXXX ",
+"  XXXXXXXX  ",
+"   . X X    ",
+"  X. X X X  ",
+"XX .XoXoX XX",
+"XX  XXXX  XX"};

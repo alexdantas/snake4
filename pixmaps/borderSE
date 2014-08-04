@@ -1,0 +1,18 @@
+/* XPM */
+static char * borderSE[] = {
+"12 12 3 1",
+" 	c #B2CA30C230C2",
+".	c #410310401040",
+"X	c brown",
+" .XXXXXXXXX.",
+"X .XXX XXXX.",
+"XX .XXXXXXX.",
+"XXX .XXXXXX.",
+"XXXX .XXXXX.",
+"XXXXX .XXXX.",
+"XXXXXX .XXX.",
+"XX XXXX .XX.",
+"XXXXXXXX .X.",
+"XXXXX XXX ..",
+"XXXXXXXXXX .",
+"............"};

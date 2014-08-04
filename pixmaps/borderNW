@@ -1,0 +1,18 @@
+/* XPM */
+static char * borderNW[] = {
+"12 12 3 1",
+" 	c #B2CA30C230C2",
+".	c #410310401040",
+"X	c brown",
+"            ",
+" .XXXXXXXXXX",
+"  .XXX XXXXX",
+" X .XXXXXXXX",
+" XX .XXXX XX",
+" XXX .XXXXXX",
+" XXXX .XXXXX",
+" XXXXX .XXXX",
+" XXXXXX .XXX",
+" XXXXXXX .XX",
+" XXXXXXXX .X",
+" XXXXXXXXX ."};

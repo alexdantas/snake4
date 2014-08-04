@@ -1,0 +1,22 @@
+/* XPM */
+static char * headbanger01[] = {
+"12 12 7 1",
+" 	c black",
+".	c white",
+"X	c #B2CAB2CAB2CA",
+"o	c #820782078207",
+"O	c #618561856185",
+"+	c #FFFF82078207",
+"@	c brown",
+"  ......    ",
+"  .XXXXXXo  ",
+"  .XXXXXXXXO",
+"  OOOOOOOOOO",
+"     +@@    ",
+"     +@@    ",
+"     +@@    ",
+"     +@@    ",
+"     +@@    ",
+"     +@@    ",
+"     +@@    ",
+"      @     "};

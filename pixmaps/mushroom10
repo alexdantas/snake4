@@ -1,0 +1,22 @@
+/* XPM */
+static char * mushroom10[] = {
+"12 12 7 1",
+" 	c black",
+".	c #D34C00000000",
+"X	c red",
+"o	c #C30B00000000",
+"O	c #D34CD34CD34C",
+"+	c #A289A289A289",
+"@	c #820700000000",
+"            ",
+"            ",
+"            ",
+"            ",
+"            ",
+"            ",
+"            ",
+"            ",
+"  .XXXXXX   ",
+" .XoOoooo.. ",
+"XXoooo+oOo@@",
+"Xoooooooooo@"};

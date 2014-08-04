@@ -1,0 +1,20 @@
+/* XPM */
+static char * snakeheadW[] = {
+"12 12 5 1",
+" 	c black",
+".	c green",
+"X	c #0000C30B0000",
+"o	c #00000000D34C",
+"O	c #000051440000",
+"       ...  ",
+"     ..XXXX.",
+"   ..XXXXXXX",
+"  .XXXXXXXXX",
+" .XXXXooooXX",
+".XXXXXXXXXXX",
+"OXXXXXXXXXXX",
+" OXXXXooooXX",
+"  OXXXXXXXXX",
+"   OOXXXXXXX",
+"     OOXXXXO",
+"       OOO  "};

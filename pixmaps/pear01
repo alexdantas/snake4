@@ -1,0 +1,20 @@
+/* XPM */
+static char * pear01[] = {
+"12 12 5 1",
+" 	c black",
+".	c brown",
+"X	c green",
+"o	c #0000D34C0000",
+"O	c #000082070000",
+"          ..",
+"        X...",
+"      Xooo..",
+"     Xoooo  ",
+"    Xooooo  ",
+"  XXoooooO  ",
+"OoooXooooO  ",
+"oooooXooo   ",
+"ooooooooo   ",
+"oo oooooO   ",
+"o  ooooo    ",
+" Ooooo      "};

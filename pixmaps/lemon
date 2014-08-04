@@ -1,0 +1,21 @@
+/* XPM */
+static char * lemon[] = {
+"12 12 6 1",
+" 	c black",
+".	c yellow",
+"X	c #D34CD34C0000",
+"o	c #000082070000",
+"O	c #820782070000",
+"+	c #0000D34C0000",
+"            ",
+" ..         ",
+" .X...      ",
+" .XXoXXO    ",
+" .XXXXXXX   ",
+" XX+X+XXXO  ",
+" OXXXXXXXX  ",
+"  X+XXX+XXX ",
+"  OXXXXXXXX ",
+"    OXXXoXX ",
+"       OOOO ",
+"            "};

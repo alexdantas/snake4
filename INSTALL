@@ -1,0 +1,37 @@
+Installing snake4
+=================
+
+If you don't have gcc, you'll have to edit the Makefile.  If your
+compiler is not ANSI, you'll have to change all files.
+
+  1. Make sure you have the libraries shhopt, shhmsg, xalloc and
+     shhcards by the same author.  If not, you may find them at
+
+	http://shh.thathost.com/pub-unix/
+
+  2. Make sure you have the xpm-library.  X11 is nothing without
+     this. :-)
+
+	ftp://koala.inria.fr/pub/xpm/
+
+  3. Edit the Makefile.  You will at least need to describe where the
+     above mentioned libraries and X11 can be found.  If your game
+     program group and owner is not `games', you must enter the
+     appropriate names.
+
+  4. Build the program
+
+	make dep
+	make
+
+  5. Install program, highscore file and man-file
+
+	make install
+
+By default, the program will be installed in /usr/local/games, the
+man-file in /usr/local/man/man6, and the highscore file will go into
+/var/local/lib/games.
+
+NOTE: The program will be installed with the SUID-bit set, to allow
+editing the highscore file.  The program will refuse to run if owned
+by root, for security reasons.

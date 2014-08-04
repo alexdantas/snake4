@@ -1,0 +1,20 @@
+/* XPM */
+static char * splat[] = {
+"12 12 5 1",
+" 	c #820700000000",
+".	c red",
+"X	m black	c black",
+"o	c #A289A289A289",
+"O	c #C30B00000000",
+" ..XX...XXXX",
+".oOX.ooOXXX ",
+".OOOOOOO... ",
+"X.OOO.OOooO ",
+"XXOO..OOOO  ",
+"XX.O.OOOOO X",
+"XX.OOOOOO XX",
+"X.OOOOOOOO .",
+".OOOOOOOOO X",
+"XOOOOOOOOO X",
+"XO  OO   O X",
+"XOXXO  XX X."};

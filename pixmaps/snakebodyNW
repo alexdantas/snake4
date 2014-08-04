@@ -1,0 +1,20 @@
+/* XPM */
+static char * snakebodyNW[] = {
+"12 12 5 1",
+" 	c black",
+".	c green",
+"X	c #0000C30B0000",
+"o	c #000082070000",
+"O	c #000051440000",
+"  .XoXXXXO  ",
+"  .XXXXXXO  ",
+"..XXXoXXXO  ",
+"XXXoXXoXXO  ",
+"oXXXXXXXXO  ",
+"XXoXXXXXXO  ",
+"XXXoXXXXO   ",
+"XXXXXXXXO   ",
+"XXXXXXOO    ",
+"OOOOOO      ",
+"            ",
+"            "};

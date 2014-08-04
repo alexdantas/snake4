@@ -1,0 +1,18 @@
+/* XPM */
+static char * borderNE[] = {
+"12 12 3 1",
+" 	c #B2CA30C230C2",
+".	c #410310401040",
+"X	c brown",
+"           .",
+"XXXXXXXXX. .",
+"XXXXXXXX. X.",
+"XXXXXXX. XX.",
+"XXXXXX. XXX.",
+"XXXXX. XXXX.",
+"XXXX. XXX X.",
+"XXX. XXXXXX.",
+"XX. XXXXXXX.",
+"X. XXXX XXX.",
+". XXXXXXXXX.",
+" XXXXXXXXXX."};

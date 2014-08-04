@@ -1,0 +1,19 @@
+/* XPM */
+static char * slimpill[] = {
+"12 12 4 1",
+" 	c black",
+".	c #A289A289A289",
+"X	c #820782078207",
+"o	c #514451445144",
+"            ",
+"   ..X.     ",
+" .XXXXXXX   ",
+" XXXXXXXXo  ",
+".XXXXXo.XXo ",
+".XXXXo.XXXo ",
+"XXXXo..XXXX ",
+".XXo..XXXXo ",
+".Xo.XXXXXXo ",
+" XXXXXXXXXo ",
+" .XXXXXXXo  ",
+"   ..Xooo   "};

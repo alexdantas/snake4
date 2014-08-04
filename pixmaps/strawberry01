@@ -1,0 +1,21 @@
+/* XPM */
+static char * strawberry01[] = {
+"12 12 6 1",
+" 	c black",
+".	c #0000A2890000",
+"X	c red",
+"o	c #820782070000",
+"O	c #D34C00000000",
+"+	c #C30B00000000",
+"   ..  ..   ",
+" XXXX.... XX",
+"XXXXXX..XXXX",
+"XXoXX...XXXX",
+"XoXX.XXXXXXo",
+"XXXXXXXoXXXX",
+"XXXXoXXXoXXX",
+"XXXoXXXXXXXO",
+" XXXXXoXXXO ",
+"  XXXXXoXO+ ",
+"    XXXX+   ",
+"            "};

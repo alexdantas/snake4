@@ -1,0 +1,20 @@
+/* XPM */
+static char * snaketailS[] = {
+"12 12 5 1",
+" 	c black",
+".	c green",
+"X	c #000051440000",
+"o	c #0000C30B0000",
+"O	c #000082070000",
+"     .X     ",
+"    .ooX    ",
+"    .oOX    ",
+"   .OOooX   ",
+"   .ooooX   ",
+"  .oOooooX  ",
+"  .oOooooX  ",
+"  .ooooooX  ",
+"  .ooOoooX  ",
+"  .oooOooX  ",
+"  .ooooooX  ",
+"  .ooooOoX  "};

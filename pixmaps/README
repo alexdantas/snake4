@@ -1,0 +1,11 @@
+instructions was made using the following steps:
+
+1. Export instrictions.fig to an xpm-file from xfig.
+
+2. Read that xpm-file into xv, and autocrop it.
+
+3. Save to gif-file from xv, since my version of xv failed to save
+   correct xpm-files.
+
+4. giftoppm instructions.gif | ppmtoxpm -name instructions > instructions
+

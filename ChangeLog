@@ -1,0 +1,151 @@
+2002-03-02  Sverre H. Huseby  <shh@thathost.com>
+
+	* Release: 1.0.12
+
+	* All: Updated contact information.
+
+1998-07-05  Sverre H. Huseby  <shh@thathost.com>
+
+	* Release: 1.0.11
+
+	* Updated author information, and changed license to Artistic
+	License, to please sunsite.
+
+	* pixmaps/instructions: removed old mail address.
+
+Wed Aug 13 22:39:30 1997  Sverre H. Huseby  <s.h.huseby@usit.uio.no>
+
+	* Release: 1.0.10
+
+	* score.c (scoreWriteScoreLines): Makes sure no empty fields are
+	written out, as strtok doesn't like empty tokens.
+
+Mon Aug 11 21:30:35 1997  Sverre H. Huseby  <s.h.huseby@usit.uio.no>
+
+	* Release: 1.0.9
+
+	* Makefile: Added possibility to make a binary distribution.
+
+Wed Mar 19 20:11:25 1997  Sverre H. Huseby  <s.h.huseby@usit.uio.no>
+
+	* Version: 1.0.8
+
+	* win.c (winParseOptions): Added a terminating NULL to the
+	resources.
+
+Mon Nov 11 22:04:24 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.7
+
+	* score.c: Use 3 positions for position number on score list.
+
+Tue Oct 15 11:32:10 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.6
+
+	* pixmaps/instructions*: Included score values in the instructions.
+
+Fri Oct 11 11:15:15 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.5
+
+	* score.c (scoreGetThisPlayerIndex): New function.
+
+	* board.c (boardShowHighscores): No longer shows the top 20, but
+	rather the top 10, plus a few centered around the current player.
+
+Fri Oct 11 11:15:15 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.4
+
+	* snake.c: Added idling timeout for start of rounds. The game is
+	over if the user waits too long (a couple of minutes) before
+	moving the snake.
+
+Fri Oct 11 10:31:55 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.3
+
+	* Increased number of entries in the highscore file, and made a
+	constant for how many scores may be showed inline.
+
+Thu Oct 10 13:41:53 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.2
+
+        * game.c (gameInit): Fixed bug. Random seed was initialized using
+        clock(), but clock returns number of ticks since the last call to
+        clock(), so it was always zero.
+
+Wed Oct  9 17:48:49 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.1
+
+	* snake4.c (main): Now shows highscores if called as snake4scores.
+
+	* Makefile: At installation, creates a symlink called snake4scores
+	to snake4.
+
+Tue Oct  8 06:56:01 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 1.0.0 (uploaded to sunsite.unc.edu)
+
+	* win.c (winTogglePause): Bugfix: Added test for
+	gameEndOfRound. Problems occurred if the player paused the game
+	after the snake died.
+
+	* board.c (boardHandleEvent): Moved test for pausing legal to
+	winTogglePause in win.c
+
+	* suid.c: Added this file and suid.h. Fixes SUID-problems on
+	SunOS.
+
+	* Makefile: Creates snake4.score from snake4.score.ifi by keeping
+	sverrehu only.
+
+	* Translated TODO to English.
+
+Sun Oct  6 20:38:50 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 0.9.5
+
+	* snake4.c (version): Added info on who compiled the program, and
+	when.
+
+Sun Oct  6 17:03:50 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 0.9.4
+
+	* board.c (boardHandleEvent): Bugfix: Expose events would both
+	show instructions and repaint game objects.
+
+Sun Oct  6 15:05:19 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version: 0.9.3
+
+	* slimpill.c: Slimpill comes less often.
+
+	* headbanger.c: Score for each move of the headbanger, and extra
+	bonus when it leaves.
+
+	* fruit.c (fruitHandleTick): At least two fruits available.
+
+Sat Oct  5 11:19:52 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Version 0.9.2
+
+	* snake4.6: Added a man-page.
+
+	* score.c, snake4.c: Added possibility to merge scores from
+ 	separate highscore file.
+
+Fri Oct  4 22:14:57 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Bumped version up to 0.9.1 - soon finished!
+
+Tue Sep 24 19:38:47 1996  Sverre H. Huseby  <sverrehu@ifi.uio.no>
+
+	* Initial version. This program was first implemented in assembly
+	for MS-DOS by the same author.
+	
+

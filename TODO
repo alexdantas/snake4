@@ -1,0 +1,61 @@
+BUGS
+====
+
+* None, of course.  There are never bugs in my programs¹.
+
+
+DO NOW
+======
+
+* Include autoconf-stuff I received in a mail.
+
+
+DO LATER (OR NEVER)
+===================
+
+Igor R <igorr@ifi.uio.no>
+
+* Pause the game when it looses focus.
+
+Ingvil Hovig <ingvil.hovig@usit.uio.no>
+
+* Speed-up by holding a key down.  Must have a command line option
+  that disables this.
+
+Kjetil T. Homme <kjetilho@ifi.uio.no>
+
+* Tell xpm how to map the colors to black and white.  May be done from
+  the pixmap progra.
+
+* Pause indicator.
+
+* Personal highscore.
+
+John Olav Olsen <johnol@ifi.uio.no>
+
+* On-line comments, like when the headbanger shows up.
+
+Tor Sigurd Mytting <tormy@ifi.uio.no>
+
+* Cartoon-like talk-balloons saying "Yum!" and things like that.
+
+Knut Erik Borgen <knutbo@ifi.uio.no>
+
+* Super-nam: Doubles the length of the tail, but enables eating rotten
+  food for a while.
+
+Alf Dagfinn Lynegard <alfl@ifi.uio.no>
+
+* Put some walls inside the playground.
+
+Sverre H. Huseby <sverrehu@ifi.uio.no>
+
+* Demo-mode where the computer plays the game.
+
+* Create a more reasonable scheduler, or rather: Create a reasonable
+  scheduler.  The current one isn't.
+
+
+
+------
+¹ Big joke. Please laugh.
