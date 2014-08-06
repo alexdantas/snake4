@@ -1,5 +1,4 @@
-snake4 - Fruit-eating snake game
-================================
+# snake4 - Fruit-eating snake game
 
 This program is my fourth implementation of the snake game, written
 for Unix and X11.  Previous versions were written for MS-DOS.
@@ -24,33 +23,25 @@ Thx to brother Reidar for thinking up the slim-pill.
 
 Choose among the following keys to move the snake around:
 
-        ------+---+---+---+------------
-	Up    | A | T | K | Up arrow
-	Down  | Z | V | J | Down arrow
-	Left  | N | F | H | Left arrow
-	Right | M | G | L | Right arrow
-        ------+---+---+---+------------
-
-Use `space', `pause' or `p' to pause and unpause, and `esc' or `q' to
-quit.
+| Action        | Keys                       |
+| ------------- | -------------------------- |
+| Up            | `A`, `T`, `K`, Up arrow    |
+| Down          | `Z`, `V`, `J`, Down arrow  |
+| Left          | `N`, `F`, `H`, Left arrow  |
+| Right         | `M`, `G`, `L`, Right arrow |
+| Pause/Unpause | `P`, Space, Pause          |
+| Quit          | `Q`, Esc                   |
 
 snake4 features a site-wide highscore file.  The file contains the top
 200 users.  Each user may appear once only in the highscore table.
 
+# Author
 
-Author
-------
+The program is written by _Sverre H. Huseby_ (<shh@thathost.com>, http://shh.thathost.com/)
 
-The program is written by
+Lofthusvn. 11 B N-0587 Oslo Norway
 
-        Sverre H. Huseby        shh@thathost.com
-        Lofthusvn. 11 B         http://shh.thathost.com/
-        N-0587 Oslo
-        Norway
-
-
-License
--------
+# License
 
 This program is released under the Artistic License:
 
