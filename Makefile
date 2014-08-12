@@ -89,7 +89,7 @@ $(PROG): $(OBJS)
 	$(CC) -o $@ -c $(CCOPT) $<
 
 clean:
-	rm -f *.o core depend *~
+	rm -f *.o core depend *~ $(PROG)
 
 install: $(PROG)
 	install -d -m 755 $(INSTBINDIR) $(INSTLIBDIR) $(INSTMANDIR)
