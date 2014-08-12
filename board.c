@@ -32,7 +32,7 @@
 #include "board.h"
 
 /* must be last to avoid redefinition of Pixel */
-#include <xpm.h>
+#include <X11/xpm.h>
 
 
 
