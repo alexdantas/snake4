@@ -509,12 +509,15 @@ scoreMergeScoreFile(char *file)
     if (fgets(line, sizeof(line), merge) == NULL)
 	goto unlock;
     n = atoi(line);
-    for (q = 0; q < n; q++)
-        if ((hs = scoreReadScoreLine(merge)) != NULL)
-	    if (scorePossiblyAddEntry(hs))
+    for (q = 0; q < n; q++) {
+        if ((hs = scoreReadScoreLine(merge)) != NULL) {
+	    if (scorePossiblyAddEntry(hs)) {
 		changed = 1;
-	    else
+	    } else {
 		scoreFree(hs);
+	    }
+	}
+    }
 
     /* possibly save new highscore table */
     if (changed) {
