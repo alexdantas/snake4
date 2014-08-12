@@ -4,7 +4,7 @@
  *  FILE            fruit.c
  *  MODULE OF       snake4 - game of snake eating fruit
  *
- *  DESCRIPTION     
+ *  DESCRIPTION
  *
  *  WRITTEN BY      Sverre H. Huseby <shh@thathost.com>
  *
@@ -83,13 +83,9 @@ fruitActivate(int n)
 static void
 fruitAllCallback(GameObject *go)
 {
-    int x, y;
-
     if (go->extra[0] == 0)
 	go->ticksPixmap[0] = 2 * go->ticksPixmap[1];
     if (++go->extra[0] == 7) {
-	x = go->x;
-	y = go->y;
 	goDeactivate(go);
 	scullAt(go->x, go->y);
     }

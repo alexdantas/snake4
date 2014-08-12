@@ -470,8 +470,8 @@ boardHandleEvent(XEvent *evt)
 	break;
       case KeyPress:
       {
-	int keysyms_per_keycode_return;
-	ks = XGetKeyboardMapping(winDisplay, evt->xkey.keycode, 1, &keysyms_per_keycode_return);
+	int keysymsPerKeycode;
+	ks = XGetKeyboardMapping(winDisplay, evt->xkey.keycode, 1, &keysymsPerKeycode);
 	switch (*ks) {
 	  case XK_Up:
 	  case XK_A:
