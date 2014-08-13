@@ -1,9 +1,18 @@
+Misc
+----
+
+Alexandre Dantas <eu@alexdantas.net>
+
+  * Put snake4 on github: https://github.com/alexdantas/snake4
+  * Cleaned up the code
+
+
 Major ideas
 -----------
 
 Reidar Huseby
 
-	* The slimpill.
+  * The slimpill.
 
 
 
@@ -37,8 +46,8 @@ Daniel Øyan <danielo@ifi.uio.no>
 Your name may appear here if you
 --------------------------------
 
-	* report/fix bugs (see TODO)
-	* extend the functionality of the program (see TODO)
-	* do something nice
-	* all of the above
+  * report/fix bugs (see TODO)
+  * extend the functionality of the program (see TODO)
+  * do something nice
+  * all of the above
 

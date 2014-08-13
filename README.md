@@ -39,7 +39,7 @@ snake4 features a site-wide highscore file.  The file contains the top
 
 The program is written by _Sverre H. Huseby_ (<shh@thathost.com>, http://shh.thathost.com/)
 
-Lofthusvn. 11 B N-0587 Oslo Norway
+Lindealleen 18 A, N-0487 Oslo, Norway
 
 # License
 
