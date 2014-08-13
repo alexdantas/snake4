@@ -1,5 +1,7 @@
 # snake4 - Fruit-eating snake game
 
+![screenshot](http://shh.thathost.com/pub-unix/html/img/snake4-playing.png)
+
 This program is my fourth implementation of the snake game, written
 for Unix and X11.  Previous versions were written for MS-DOS.
 
