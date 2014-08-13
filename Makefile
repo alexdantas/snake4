@@ -110,7 +110,7 @@ depend dep:
 LSMFILE		= $(DIST)-$(VERSION).lsm
 DISTDIR		= $(DIST)-$(VERSION)
 DISTFILE	= $(DIST)-$(VERSION).tar.gz
-DISTFILES	= README INSTALL CREDITS TODO $(LSMFILE) $(DIST).6 \
+DISTFILES	= README.md INSTALL CREDITS TODO $(LSMFILE) $(DIST).6 \
 		  $(DIST).lsm.in ChangeLog Makefile $(SCOREBASEFILE) \
 		  $(SCOREBASEFILE).ifi \
 		  board.c fruit.c game.c gameobject.c headbanger.c \
@@ -122,7 +122,7 @@ DISTFILES	= README INSTALL CREDITS TODO $(LSMFILE) $(DIST).6 \
 		  pixmaps
 BINDISTDIR	= $(DIST)-$(VERSION)-bin
 BINDISTFILE	= $(DIST)-$(VERSION)-bin.tar.gz
-BINDISTFILES	= README.static $(PROG).static $(PROG).6 \
+BINDISTFILES	= README.md.static $(PROG).static $(PROG).6 \
 		  Makefile.static $(SCOREBASEFILE)
 
 # Linux executable with my libraries and Xpm statically linked.
